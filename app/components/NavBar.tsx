@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ModeToggle } from './ModeToggle'
 
 function NavBar() {
   return (
@@ -7,7 +8,7 @@ function NavBar() {
         Fede<span className="text-primary">Dev</span>
       </Link>
 
-
+    <ModeToggle/>
 
     </nav>
   )
